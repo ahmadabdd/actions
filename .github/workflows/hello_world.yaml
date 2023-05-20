@@ -16,10 +16,9 @@ jobs:
         run: echo "Hello world"
         shell: bash
 
-  hello:
+  goodbye:
     runs-on: ubunto-latest
     steps:
       - name: Goodbye world
         run: echo "Goodbye world"
         shell: bash
- 
