@@ -12,13 +12,13 @@ jobs:
     runs-on: ubunto-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Hello world
+      - name: hello world
         run: echo "Hello world"
         shell: bash
 
   goodbye:
     runs-on: ubunto-latest
     steps:
-      - name: Goodbye world
+      - name: goodbye world
         run: echo "Goodbye world"
         shell: bash
